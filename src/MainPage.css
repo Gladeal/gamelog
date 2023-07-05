@@ -1,0 +1,79 @@
+.main-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(https://i.hizliresim.com/cmlwdt2.png);
+  }
+  
+.heading {
+	position: static;
+	width: 1267px;
+	height: 140px;
+	left: 327px;
+	top: 267px;
+
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 72px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: rgb(241, 255, 78);
+
+	text-shadow: 5px 5px 5px #000000;
+  }
+
+  .login-register-buttons{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px auto;
+	width: 50%;
+  }
+
+  .btn.register{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 70px;
+	margin: auto;
+
+	font-family: Urbanist;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+
+	border-color: transparent;
+	border-radius: 40px;
+	background-color: #000000;
+    color: #F1FF4E;
+	box-shadow: 0 8px 16px 0 #fffb0033, 0 6px 20px 0 #00000030;
+
+	cursor: pointer;
+  }
+
+  .btn.login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 70px;
+	margin: auto;
+
+	font-family: Urbanist;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+
+	border-color: transparent;
+	border-radius: 40px;
+	background-color: #F1FF4E;
+	box-shadow: 0 8px 16px 0 #00000033, 0 6px 20px 0 #00000030;
+
+	cursor: pointer;
+  }

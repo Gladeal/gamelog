@@ -1,0 +1,108 @@
+    /* Genel stil ayarları */
+    * {
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #1d1e22;
+    }
+    
+    /* Ana bölüm */
+    .main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #fff;
+    }
+    
+    /* Oyun başlığı */
+    h1 {
+      font-size: 42px;
+      margin: 0;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #fff;
+    }
+    
+    /* Ana resim */
+    .main-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      background-image: url('https://www.igdb.com/assets/uploads/games/5a6540cda91d8_red_dead_redemption_2.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    /* Oyun bilgileri */
+    .game-info {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+    }
+    
+    .game-info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .game-info-item img {
+      margin-right: 10px;
+    }
+    
+    /* Metacritic değerlendirmesi */
+    .metacritic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #e67e22;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    /* Açıklama */
+    .description {
+      margin-top: 40px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+    
+    /* Etiketler */
+    .tags {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .tag {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      background-color: #e67e22;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    /* Buton */
+    .button {
+      margin-top: 40px;
+      background-color: #e67e22;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background-color 0.2
+    }

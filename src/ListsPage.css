@@ -1,0 +1,85 @@
+html {
+    background-color: #ffffff;
+
+}
+
+:root {
+    --card-width: 200px;
+    --card-height: 400px;
+    --card-margin: 200px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .game-list {
+    display: flex;
+	justify-content: center;
+    margin: -var(--card-margin);
+  }
+  
+  .list-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px 0px 0px ;
+    box-shadow: 0px 2px 4px #00000040;
+   
+    border-radius: 10px;
+  }
+  
+  
+  .list-card h2 {
+    font-size: 1.1rem;
+    margin: 0px 0px 0px 10px;
+  }
+  
+  .list-card p {
+    font-size: 0.7rem;
+    margin: 0;
+    color: #666;
+  }
+  
+  .list-card button {
+    margin: 0px 10px 0px 10px;
+    background-color: none;
+    border: none;
+    border-radius: 60px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-card button:hover {
+    background-color: #f1ff4e;
+  }
+
+  .section-heading{
+    line-height: 1;
+    border: 0;
+    font-style: inherit;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    margin: 18px 0 12px;
+    border-bottom: 1px solid #f1ff4e;
+    color: #9ab;
+    font-family: Graphik-Regular-Web,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .075em;
+    margin-bottom: .76923077rem;
+    margin-top: 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    }
+
+    

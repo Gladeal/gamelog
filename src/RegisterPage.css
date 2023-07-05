@@ -1,0 +1,207 @@
+.register-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(https://i.hizliresim.com/cmlwdt2.png);
+  }
+  
+.heading {
+	position: static;
+	width: 1267px;
+	height: 140px;
+	left: 327px;
+	top: 267px;
+
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 72px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: rgb(241, 255, 78);
+
+	text-shadow: 5px 5px 5px #000000;
+  }
+
+  .form-title {
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 16px;
+	text-align: center;
+  }
+  
+  .form-group {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 16px;
+  }
+  
+  .form-label {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 8px;
+  }
+
+  .form-input-group {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+  }
+  
+  .form-input {
+	height: 60px;
+	width: 100%;	
+	border: transparent;
+	background-color: #000000;
+	border-radius: 40px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	
+	font-family: Urbanist;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	caret-color: #fff;
+  }
+  
+  .form-input:focus {
+	outline: none;
+	border-color: #F1FF4E;
+	box-shadow: 0 0 0 2px rgba(241, 255, 78, 0.2);
+  }
+  
+  .form-label-remember {
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-size: 20px;
+	display: contents;
+	float: left;
+
+	color: #F1FF4E;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+	cursor: pointer;
+  }
+
+  .warning-message {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: auto;
+	margin-bottom: 6px;
+	height: 35px;
+	width: 50%;
+	border-radius: 40px;
+
+	background: #ff4e4e;
+	font-family: Urbanist;
+  }
+
+  .btn-start {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 70px;
+	margin: auto;
+
+	font-family: Urbanist;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+
+	border-color: transparent;
+	border-radius: 40px;
+	background-color: #F1FF4E;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	cursor: pointer;
+  }
+
+  .form-group-remember-login{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	width: 50%;
+  }
+
+  .form-group-remember-login label {
+	display: flex;
+	align-items: center;
+  }
+
+  .login-link {
+	margin-left: auto;
+	padding: 0%;
+
+	font-family: 'Urbanist';
+	font-style: normal;
+	font-size: 20px;
+	text-align: right;
+
+	background: transparent;
+	border: transparent;
+	color: #F1FF4E;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+	cursor: pointer;
+  }
+
+  .btn-showpassword {
+	width: 36px;
+	height: 30px;
+	position: fixed;
+
+	padding: 0%;
+	float: right;
+
+	margin: 15px 0px 0px 570px;
+
+	background: transparent;
+	border: transparent;
+
+	cursor: pointer;
+  }
+
+  .btn-showconfirmpassword {
+	width: 36px;
+	height: 30px;
+	position: fixed;
+
+	padding: 0%;
+	float: right;
+
+	margin: 15px 0px 0px 570px;
+
+	background: transparent;
+	border: transparent;
+
+	cursor: pointer;
+  }
+
+  .btn-start {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 70px;
+	margin: auto;
+
+	font-family: Urbanist;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+
+	border-color: transparent;
+	border-radius: 40px;
+	background-color: #F1FF4E;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+	cursor: pointer;
+  }
